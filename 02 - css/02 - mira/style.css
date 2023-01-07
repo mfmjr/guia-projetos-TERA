@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(67, 65, 65);
+  height: 600px;
+}
+
+p {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.alvo_externo {
+  height: 500px;
+  width: 500px;
+}
+
+.alvo_externo,
+.alvo2,
+.alvo4 {
+  background-color: lightcoral;
+}
+
+.alvo1,
+.alvo3,
+.alvo5 {
+  background-color: #fff;
+}
+
+.alvo1 {
+  height: 400px;
+  width: 400px;
+}
+
+.alvo2 {
+  height: 300px;
+  width: 300px;
+}
+
+.alvo3 {
+  height: 200px;
+  width: 200px;
+}
+
+.alvo4 {
+  height: 100px;
+  width: 100px;
+}
+
+.alvo5 {
+  height: 50px;
+  width: 50px;
+}
+
+.alvo_externo,
+.alvo1,
+.alvo2,
+.alvo3,
+.alvo4,
+.alvo5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 5px solid grey;
+  margin: 50px auto;
+  position: relative;
+}
+
+.mira1 {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(213, 246, 156);
+  border: 6px dashed black;
+  border-radius: 50%;
+  position: relative;
+}
+
+.mira2 {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(156, 246, 219);
+  border: 6px dashed black;
+  border-radius: 50%;
+  position: relative;
+  bottom: 1;
+  right: 0;
+}
+
+/* .mira3 {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(240, 161, 82);
+  border: 6px dashed black;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+} */
