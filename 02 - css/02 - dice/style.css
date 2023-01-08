@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  font-weight: bold;
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+p {
+  margin: 100px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.dice__1,
+.dice__3,
+.dice__6 {
+  display: inline-block;
+  margin: 50px;
+  border: 10px solid #000;
+}
+
+.cube__white__1,
+.cube__white__3,
+.cube__white__6 {
+  background-color: #fff;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+/* Dice 1 */
+
+.circle__red__1 {
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* Dice 3 */
+
+.circle__red__3__1,
+.circle__red__3__2,
+.circle__red__3__3 {
+  border: 3px solid #000;
+  border-radius: 50%;
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+
+.circle__red__3__1 {
+  top: 0;
+  left: 0;
+}
+
+.circle__red__3__2 {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.circle__red__3__3 {
+  bottom: 0;
+  right: 0;
+}
+
+/* Dice 6 */
+
+.circle__red__6__1,
+.circle__red__6__2,
+.circle__red__6__3,
+.circle__red__6__4,
+.circle__red__6__5,
+.circle__red__6__6 {
+  border-radius: 50%;
+  border: 3px solid #000;
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+
+.circle__red__6__1 {
+  top: 0;
+  left: 0;
+  margin: auto;
+}
+
+.circle__red__6__2 {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.circle__red__6__3 {
+  bottom: 0;
+  left: 0;
+}
+
+.circle__red__6__4 {
+  top: 0;
+  right: 0;
+}
+
+.circle__red__6__5 {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.circle__red__6__6 {
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
