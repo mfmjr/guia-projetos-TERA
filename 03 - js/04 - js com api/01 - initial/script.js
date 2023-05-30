@@ -54,13 +54,10 @@ const updateDOM = () => {
 
 const getNasaPictures = async () => {
   try {
-    const response = await fetch(apiUrl);
-    resultArray = await response.json();
-    console.log("resultArray: ", resultArray);
-    updateDOM();
+     
   } catch (error) {
-    console.log(error);
+
   }
 };
 
-getNasaPictures();
+
