@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #2a2a72;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.user-form {
+  width: 100%;
+  max-width: 700px;
+}
+
+.user-form input {
+  width: 100%;
+  display: block;
+  background-color: #4c2885;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.user-form input::placeholder {
+  color: #bbb;
+}
+
+.user-form input:focus {
+  outline: none;
+}
+
+.card {
+  height: 250px;
+  width: 750px;
+  background: #0e2563;
+  border-radius: 10px;
+}
+
+.avatar {
+  margin: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 15px solid #48489e;
+}
+
+.user-info {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 245px;
+  width: 500px;
+  color: white;
+  margin-top: 75px;
+  position: relative;
+}
+
+.user-info h2 {
+  position: absolute;
+  top: 50px;
+}
+
+.user-info p {
+  position: absolute;
+  top: 100px;
+  font-size: 16px;
+  color: #7979d6;
+}
+
+.user-info ul {
+  position: absolute;
+  top: 150px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+  max-width: 400px;
+}
+
+.user-info ul li {
+  display: flex;
+  align-items: center;
+  color: white;
+  letter-spacing: 2px;
+  margin: 15px;
+  padding: 5px 15px;
+  background: #687fbd;
+  list-style: none;
+}
+
+.user-info ul li strong {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+.repo {
+  text-decoration: none;
+  color: #fff;
+  background-color: #212a72;
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+@media (max-width: 500px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-form {
+    max-width: 400px;
+  }
+}
