@@ -51,12 +51,8 @@ html {
   color: #ddd;
 }
 .card {
-  width: 48rem;
-  height: 25rem;
   background-color: #fff;
   border-radius: 2rem;
-  position: relative;
-  display: flex;
   box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.4);
 }
 
@@ -65,21 +61,12 @@ html {
 }
 
 .card-map {
-  width: 35rem;
-  position: absolute;
-  top: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
   opacity: 0.2;
 }
 
 .card-left {
-  width: 70%;
-  height: 100%;
   padding: 1rem 0 1rem 3rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+
   color: #777;
   z-index: 10;
 }
@@ -118,8 +105,6 @@ html {
 }
 
 .card-right {
-  display: flex;
-  align-items: end;
   padding: 0 0 2rem 2rem;
   z-index: 10;
 }
