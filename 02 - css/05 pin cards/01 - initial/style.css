@@ -21,12 +21,12 @@
   position: relative;
 }
 
-.cards .new-arrival {
+.cards .store-tera {
   width: 100%;
-  margin-top: 20px;
+  margin: 20px;
 }
 
-.cards .new-arrival h1 {
+.cards .store-tera h1 {
   text-align: center;
   font-size: 50px;
   color: #222;
@@ -35,7 +35,7 @@
   letter-spacing: 1px;
 }
 
-.cards .new-arrival h1:after {
+.cards .store-tera h1:after {
   content: "";
   height: 5px;
   width: 325px;
