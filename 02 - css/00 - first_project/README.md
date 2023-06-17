@@ -1,5 +1,7 @@
 # guia-projetos-TERA
 
+## 1. Cores
+
 color-button: #ED6523
 color-button-hover: #E55714
 color-realease: #5CB377
