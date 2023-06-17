@@ -1,8 +1,7 @@
 # guia-projetos-TERA
 
-color-button: #ED6523
-color-button-hover: #E55714
-color-realease: #5CB377
-color-border-citation: #F5A782
-color-correct: #7FCDB8
-color-heart: #FB866A
+color-button: #86AAED ~ #CB87FB
+color-button: #3ACBD1 ~ #80ACEA
+color-section: #35CDD0 ~ #CE84FA
+color-logo-footer: #959499
+color-footer: #2B2933
