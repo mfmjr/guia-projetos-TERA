@@ -1,6 +1,6 @@
 # guia-projetos-TERA
 
-## 1. Cores
+## 1. Colors
 
 color-button: #86AAED ~ #CB87FB
 color-button: #3ACBD1 ~ #80ACEA
